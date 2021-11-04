@@ -8,6 +8,12 @@
 docker run --name redis -p 6379:6379 -d redis
 ```
 
+Otra opción es correr el docker compose:
+
+```bash
+docker-compose -f "docker-compose.yaml" up -d
+```
+
 2. Instalar los requerimientos necesarios con pip
 
 ```bash
