@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+
+  redis-db:
+    image: redis
+    containger_name: redis-db
+    ports:
+      - 6379:6379
